@@ -5,9 +5,9 @@ var https     = require('https');
 var sha256    = require('sha256');
 var GitHubApi = require("github");
 
-var user = process.argv[2] || 'quantumpayments';
-var repo = process.argv[3] || 'github';
-var type = process.argv[4] || 'issues';
+var type = process.argv[2] || 'issues';
+var user = process.argv[3] || 'quantumpayments';
+var repo = process.argv[4] || 'github';
 
 var page = 1;
 var commits = [];
