@@ -11,6 +11,12 @@ describe('Github Functions', function () {
     });
   });
 
+  describe('resultsToWebcredits', function() {
+    it('resultsToWebcredits is a function', function () {
+      expect( (github.resultsToWebcredits)).to.be.a('function');
+    });
+  });
+
   describe('getAllResults', function() {
     it('getAllResults is a function', function () {
       expect( (github.getAllResults)).to.be.a('function');
