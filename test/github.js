@@ -11,4 +11,16 @@ describe('Github Functions', function () {
     });
   });
 
+  describe('getAllResults', function() {
+    it('getAllResults is a function', function () {
+      expect( (github.getAllResults)).to.be.a('function');
+    });
+  });
+
+  describe('printResults', function() {
+    it('printResults is a function', function () {
+      expect( (github.printResults)).to.be.a('function');
+    });
+  });
+
 });
