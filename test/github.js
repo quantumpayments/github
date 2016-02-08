@@ -23,4 +23,10 @@ describe('Github Functions', function () {
     });
   });
 
+  describe('compactResults', function() {
+    it('compactResults is a function', function () {
+      expect( (github.compactResults)).to.be.a('function');
+    });
+  });
+
 });
