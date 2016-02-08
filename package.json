@@ -1,6 +1,6 @@
 {
   "name": "quantumpayments_github",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "github integration to quantum payments",
   "main": "comments.js",
   "scripts": {
@@ -21,6 +21,7 @@
   "homepage": "https://github.com/quantumpayments/github#readme",
   "dependencies": {
     "github": "^0.2.4",
+    "rdflib": "^0.2.11",
     "sha256": "^0.2.0",
     "ws": "^1.0.1"
   },
