@@ -1,6 +1,6 @@
 {
   "name": "quantumpayments_github",
-  "version": "0.1.11",
+  "version": "0.2.0",
   "description": "github integration to quantum payments",
   "main": "lib/github.js",
   "scripts": {
